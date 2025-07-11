@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "WEEDANDGREET",
+    "slug": "weedandgreet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "weedandgreet",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.weedandgreet"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "WEEDANDGREET",
+      "shortName": "WeedAndGreet",
+      "lang": "en",
+      "scope": "/",
+      "themeColor": "#10B981",
+      "backgroundColor": "#0f0f0f",
+      "display": "standalone",
+      "orientation": "portrait",
+      "startUrl": "/",
+      "preferRelatedApplications": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-location"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "01ed6e70-c0de-43bf-9542-f234a9732e1d"
+      }
+    },
+    "owner": "mr.45"
+  }
+}
